@@ -68,7 +68,7 @@ This project is just for helping developers who don't familiar how to buid a Cen
 
 ### Idea about naming this 'make linux iso project' Animalism
 
-TBD
+In day 1945.08.17, a novella was published. The name is *Animal Farm: A Fairy Story* . That's it.
 
 ### Idea about naming the directory Payload
 

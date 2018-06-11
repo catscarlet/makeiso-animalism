@@ -86,3 +86,6 @@ Any contributions are welcome. Pull request to branch **dev** please.
 ## License
 
 Makeiso-Animalism is licensed under MIT License.
+
+The default splash image is from [""](https://commons.wikimedia.org/wiki/File:Flag_of_the_Animal_Farm.jpg#/media/File:Animalism_flag.svg) and it's licensed under a
+["Creative Commons Attribution-Share Alike 3.0 Unported"](https://creativecommons.org/licenses/by-sa/3.0/deed.en)

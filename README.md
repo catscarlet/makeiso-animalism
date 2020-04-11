@@ -33,17 +33,18 @@ Recommend order:
 ```
 # INPUT
 CENTOS7_EVERYTHING_ISO='/tmp/mountpoint/samba/share/CentOS-7-x86_64-Everything-1708.iso'
-CENTOS7_EVERYTHING_ISO_MOUNTPOINT='/tmp/mountpoint/CentOS7-Everything/'
+CENTOS7_EVERYTHING_ISO_MOUNTPOINT='/tmp/mountpoint/CentOS7-Everything-1708/'
 PAYLOAD_PATH='./payload_sample/'
 CONFIGDIR='boot.template/develop/'
 
 # OUTPUT
+NAMEPREFIX='PAYLOAD'
 OUTPUTFILEDIR='./'
 VERSION='v1.0.0'
 TIMEZONE='UTC'
 
 # Auto generated variables
-VOLUMENAME='PAYLOAD-'`date +'%Y%m%d%H%M'`-$VERSION
+VOLUMENAME=$NAMEPREFIX'-'`date +'%Y%m%d%H%M%S'`'-'$VERSION
 VOLUMENAME_LABEL=`expr substr ${VOLUMENAME} 1 16`
 FINALNAME=${VOLUMENAME}.iso
 ```
@@ -106,9 +107,9 @@ And you will get a ISO file. The default root password is 'makeiso-animalism'.
 ```
 
 - payload-develop.cfg, Kickstart files, including how to install automatically, the system language, network, root password, etc, A script which will executing after system installation and reboot is also included.
-- centos_dvd_frame.list , CentOS-7-1611 DVD frameware files.
+- centos_dvd_frame.list , CentOS-7-1708 DVD frameware files.
 - minimal.list , RPM Package needed from Everything-DVD
-- generatefilelist.sh , Diff 'installed RPM Package' between the current environment and Everything-DVD. This can be used to generate `your_rpm_payload.list`. **Notice that there is difference between MBR as EFI.**
+- generatefilelist.sh , Diff 'installed RPM Package' between the current environment and Everything-DVD. This can be used to generate `your_rpm_payload.list`. **Notice that there is difference between MBR as EFI.** Not recommended if you don't know what this is for.
 
 ### ISO
 

@@ -10,7 +10,13 @@
 
 ## Screenshot
 
-![makeiso-animalism screenshot](screenshot.png "makeiso-animalism screenshot")
+### BIOS 模式
+
+![makeiso-animalism bios screenshot](screenshot_bios.png "makeiso-animalism bios screenshot")
+
+### UEFI 模式
+
+![makeiso-animalism uefi screenshot](screenshot_uefi.png "makeiso-animalism uefi screenshot")
 
 ## 依赖
 

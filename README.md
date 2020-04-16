@@ -8,7 +8,13 @@ This only works for CentOS-7.4.1708.
 
 ## Screenshot
 
-![makeiso-animalism screenshot](screenshot.png "makeiso-animalism screenshot")
+### In BIOS mode
+
+![makeiso-animalism screenshot](screenshot_bios.png "makeiso-animalism screenshot")
+
+### In UEFI mode
+
+![makeiso-animalism screenshot](screenshot_uefi.png "makeiso-animalism screenshot")
 
 (In this repository, all files, include readme, are derived from [makeiso-kuroko](https://github.com/catscarlet/makeiso-kuroko))
 

@@ -1,6 +1,17 @@
+# 1.3.1 2020-04-20
+
+(Version numbers and major changes are following the first project [makeiso-kuroko](https://github.com/catscarlet/makeiso-kuroko)'s numbering scheme)
+
+Not much critical changes since 1.3.0.
+
+- Add new feature NAMEPREFIX
+- Better color scheme in GRUB
+- Better payload_sample/install.sh
+- Minor bug fixes
+
 # 1.3.0 2020-04-03
 
-(Version numbers and maor changes are following the first project makeiso-kuroko's numbering scheme)
+(Version numbers and major changes are following the first project makeiso-kuroko's numbering scheme)
 
 A lot of things have changed since 1.2.1
 
